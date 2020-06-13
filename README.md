@@ -16,6 +16,8 @@ where `|di| = abs(node_current.i - node_goal.i)` and `|dj| = abs(node_current.j 
 
 This ensures that the heuristic estimate is based on being able to go diagonal to the goal node in the most steps possible each at 1.5 cost, whereas any remaining orthogonal movements are performed with an assumed cost of 1.0 (representing the lowest cost scenario to avoid any overestimates).
 
+![GUI](./example.png)
+
 Install the necessary dependencies:
 
 Geopands
