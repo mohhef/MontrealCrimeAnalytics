@@ -1,5 +1,4 @@
-
-# MontrealCrimeAnalytics
+# Montreal crime analysis
 
 This app finds the shortest path using the A* algorithm between two points on a map based on crime data for the Montreal region. Each region, depending on threshold percentage supplied, will draw a set of yellow squares where the amount of crime in that area exceeds a representative threshold value (calculated with the supplied threshold percent in the textbox). Each square size is determined by the supplied edge width (also supplied via a textbox). A particular square (cell) can only be traversed diagonally if it is *not\* a high crime cell (i.e. is not black). A path edge is only possible if one of the two adjacent cells involved is not yellow.
 
